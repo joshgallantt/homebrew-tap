@@ -1,4 +1,4 @@
-# 🍺 Homebrew Tap by @yourusername
+# 🍺 Homebrew Tap by @joshgallantt
 
 This is a custom Homebrew tap providing command-line tools and utilities developed by me, **@joshgallant**.
 
