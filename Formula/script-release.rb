@@ -1,8 +1,7 @@
 class ScriptRelease < Formula
-  desc "This Bash script automates the safe release of a CLI or script by tagging a Git version, creating a GitHub release with a packaged binary, and updating a Homebrew tap with a formula."
   homepage "https://github.com/joshgallantt/script-release"
-  url "https://github.com/joshgallantt/script-release/releases/download/v1.0.0/script-release-v1.0.0.tar.gz"
-  sha256 "5166475fe63e0009e23275f55e9588d2bb78eed0849429012f696908f40e32fd"
+  url "https://github.com/joshgallantt/script-release/releases/download/v1.0.7/script-release-v1.0.7.tar.gz"
+  sha256 "c4e8e7d99a531e2b6df0b28d55e72d2ffed3349df1f76585bd07bbad9d79be9c"
   license "MIT"
 
   def install
@@ -10,6 +9,6 @@ class ScriptRelease < Formula
   end
 
   test do
-    system "#{bin}/script-release", "--version"
+    system "\#{bin}/script-release", "--version"
   end
 end
